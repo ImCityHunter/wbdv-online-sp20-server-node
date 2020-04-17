@@ -1,4 +1,7 @@
+//local quizzes
+
 let quizzes = require('./quizzes')
+
 const findAllQuizzes = () =>{
     return quizzes;
 }
@@ -19,4 +22,4 @@ const api = {
     deleteQuiz
 }
 
-module.exports = api
+//module.exports = api
