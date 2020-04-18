@@ -4,7 +4,10 @@ var bodyParser = require('body-parser')
 
 const mongoose = require('mongoose') //27017
 
-mongoose.connect('mongodb://localhost:27017/whiteboard-cs5610-online-spring20',{ useNewUrlParser: true,useUnifiedTopology: true })
+var url = process.env.MONGODB_URI ||'mongodb://localhost:27017/whiteboard-cs5610-online-spring20';
+
+var mongo = "mongodb+srv://test:test@cluster1.buatw.mongodb.net/test?retryWrites=true&w=majority";
+mongoose.connect(url,{ useNewUrlParser: true,useUnifiedTopology: true })
 
 
 
