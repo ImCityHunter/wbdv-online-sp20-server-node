@@ -25,7 +25,7 @@ app.use(bodyParser.json())
 // http://hokangyu-angular-project.herokuapp.com/
 app.use(function (req,res, next) {
     res.header('Access-Control-Allow-Origin',
-        'http://hokangyu-angular-project.herokuapp.com/');
+        'http://hokangyu-angular-project.herokuapp.com');
     res.header('Access-Control-Allow-Headers',
         'Content-Type, X-Requested-With, Origin');
     res.header('Access-Control-Allow-Methods',
