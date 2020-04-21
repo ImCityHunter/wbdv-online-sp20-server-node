@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const questionsSchema = require('../questions/questions.schema.server')
 const quizzesSchema = mongoose.Schema({
     title:String,
     avg: Number,

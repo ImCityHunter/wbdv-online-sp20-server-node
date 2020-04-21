@@ -10,7 +10,7 @@
     "node",
     "js"
   ],
-  "author": "hokang yu",
+  "author": "unknown",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

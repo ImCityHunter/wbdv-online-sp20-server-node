@@ -1,8 +1,6 @@
 
 const usersDao = require('../daos/users.dao.server')
-
 module.exports = (app) =>{
-
     setSession = (req,res) => {
         const name = req.params.name;
         const value = req.params.value;
