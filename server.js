@@ -28,7 +28,7 @@ app.use(bodyParser.json())
 // res.header('Access-Control-Allow-Origin', 'http://hokangyu-angular-project.herokuapp.com');
 // res.header('Access-Control-Allow-Origin', 'http://localhost:4200');
 app.use(function (req,res, next) {
-    var allowedOrigins = ['http://localhost:4200', 'http://localhost:8020', 'http://hokangyu-angular-project.herokuapp.com', 'http://localhost:9000',`https://assignment0809-angular.herokuapp.com/`];
+    var allowedOrigins = ['http://localhost:4200', 'http://localhost:8020', 'http://hokangyu-angular-project.herokuapp.com', 'http://localhost:9000',`https://assignment0809-angular.herokuapp.com`];
     var origin = req.headers.origin;
     if(allowedOrigins.indexOf(origin) > -1){
         res.setHeader('Access-Control-Allow-Origin', origin);
